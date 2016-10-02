@@ -7,7 +7,7 @@ html, body {
 
 .theater {
     min-height: 350px;
-    background-color: #eff3b5;
+    background: #eff3b5 url("/../theme/nanonagle/assets/img/colorfuldivider.jpg") center bottom repeat-x;
 }
 
 
@@ -15,9 +15,12 @@ html, body {
 
 /* --- CUSTOM NAV HEADER -----*/
 .navbar { margin-bottom: 0; }
-.navbar-default .navbar-brand,
-.navbar-default .navbar-brand:hover {
-    color: #ffffff;
+.navbar-default .navbar-brand {
+    width: 200px;
+    background-image: url(/../theme/nanonagle/assets/img/logo.png);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .navbar-default {
     background-color: #f1a91f;
