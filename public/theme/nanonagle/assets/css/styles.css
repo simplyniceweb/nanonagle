@@ -3,11 +3,21 @@ html, body {
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
 }
-
-
+h1 {}
+h2 {color: #64c0ba;}
+h3 {color: #7bb64c;}
 .theater {
     min-height: 350px;
-    background: #eff3b5 url("/../theme/nanonagle/assets/img/colorfuldivider.jpg") center bottom repeat-x;
+    background: 
+                url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x,
+                url(/../theme/nanonagle/assets/img/theaterbg.png) no-repeat center bottom
+                #eff3b5;
+}
+#contentwrapper {
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f1f1f1 url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x;
 }
 
 
@@ -18,7 +28,7 @@ html, body {
 .navbar-default .navbar-brand {
     width: 200px;
     background-image: url(/../theme/nanonagle/assets/img/logo.png);
-    background-size: 100% 80%;
+    background-size: 100% 75%;
     background-repeat: no-repeat;
     background-position: center;
 }
