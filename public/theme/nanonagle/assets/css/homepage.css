@@ -1,10 +1,97 @@
-.title {
+#homepagecontent {
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f1f1f1 url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x;
 }
-.homepagecontent {
+#homepagecontent .intro {
     margin-top: 50px;
+    margin-bottom: 30px;
 }
-.homepagecontent img {
+#homepagecontent .intro img {
     width: 40%;
 }
-.homepagecontent p {
+
+#homepagetesti {
+    color: #ffffff;
+    min-height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:
+                url(/../theme/nanonagle/assets/img/testiparents.png) center center no-repeat, 
+                url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x 
+                #f4c119;
+}
+
+#homepagetesti .title {
+    color: #ffffff;
+}
+#homepagetesti .navigator,
+#homepagetesti .navigator i {
+    color: #a77618;
+}
+#homepagetesti p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+#homepagetesti .parent-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #f1a91f;
+}
+
+
+#contactform {
+    color: #ffffff;
+    min-height: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:
+                url(/../theme/nanonagle/assets/img/contactformbg.jpg) center center fixed no-repeat, 
+                url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x 
+                #baecff;
+    background-size: cover, auto;
+}
+
+#contactform .wrapper {
+    min-height: 400px;
+    padding-top: 20px;
+    background-color: #56b1bc;
+}
+#contactform .wrapper form {
+    margin-top: 30px;
+}
+#contactform .wrapper h1,
+#contactform .wrapper h2,
+#contactform .wrapper h3 {
+    color: #ffffff;
+}
+#contactform .wrapper input,
+#contactform .wrapper textarea {
+    border-radius: 0;
+    border-color: transparent;
+}
+#contactform .wrapper button {
+    color: #c5e8ef;
+    border-radius: 0;
+}
+#contactform .location p span:last-child {
+    margin-left: 10%;
+}
+
+#footer {
+    margin-top: 50px;
+    background-color: #f3d985;
+}
+#footer a {
+    color: #e8904a;
+}
+#footer footer {
+    color: #e8904a;
+    padding: 5px 0 5px 0;
+    float: left;
+    width: 100%;
+}
+#footer footer a img {
+    width: 120px;
 }

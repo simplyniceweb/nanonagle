@@ -3,6 +3,11 @@ html, body {
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
 }
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
 h1 {}
 h2 {color: #64c0ba;}
 h3 {color: #7bb64c;}
@@ -12,12 +17,6 @@ h3 {color: #7bb64c;}
                 url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x,
                 url(/../theme/nanonagle/assets/img/theaterbg.png) no-repeat center bottom
                 #eff3b5;
-}
-#contentwrapper {
-    min-height: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background: #f1f1f1 url(/../theme/nanonagle/assets/img/colorfuldivider.jpg) center bottom repeat-x;
 }
 
 
